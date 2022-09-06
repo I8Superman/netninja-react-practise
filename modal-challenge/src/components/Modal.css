@@ -1,0 +1,22 @@
+.modal-backdrop {
+    position: fixed;
+    background-color: rgb(169, 169, 169, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    padding: 30px;
+    max-width: 500px;
+    margin: 200px auto;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px darkgray solid;
+    pointer-events: all;
+}
